@@ -8,7 +8,7 @@ This project aims to identify instances of APU failures thus requiring maintenan
 
 In approaches 1, 2, and 3, observations with air leaks were treated as anomalies due to the extremely small number; three anomaly detection techniques were applied:
 1. Clustering-based: K-Means clustering using the Euclidean distance, Hierarchical clustering using different linkage measures, and Spectral Clustering
-2. Distance-based: istance to the fifth-nearest neighbor using the Euclidean distance, Mahalanobis distance, and BACON
+2. Distance-based: distance to the fifth-nearest neighbor using the Euclidean distance, Mahalanobis distance, and BACON
 3. Density-based approaches: DBSCAN: Density-Based Spatial Clustering of Applications with Noise
    
 In approach 4, instances with air leaks are no longer considered anomalies as they constitute half of the data; two techniques were used:
